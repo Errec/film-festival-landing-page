@@ -8,3 +8,8 @@ html, body
   height: 100%;
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
+
+body
+  padding-top: 64px
+
+@import 'modules/header.sass'

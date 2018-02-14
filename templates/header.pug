@@ -1,24 +1,25 @@
 header.header
-  nav(class="navbar navbar-inverse bg-inverse navbar-toggleable-md")
-    button(class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+  nav(class="fixed-top navbar navbar-inverse bg-inverse navbar-toggleable-sm")
+    button(class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation")
         span(class="navbar-toggler-icon")
     a(class="navbar-brand" href="#")
-      img(src="/img/boff-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="")
-      span Brooklyn Outdoor Film Festival
+      img.align-middle(src="/img/boff-logo.svg" width="auto" height="40" class="d-inline-block align-top" alt="")
+      span.header__logo-text.hidden-xs-down.align-middle Brooklyn Outdoor Film Festival
+      span.header__logo-text.hidden-sm-up.align-middle BOOF
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="mainNavbar">
       <ul class="navbar-nav mr-auto justify-content-end w-100">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">The Festival<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link header__link" href="#">The Festival<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Movies<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link header__link" href="#">Movies<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Register<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link header__link" href="#">Register<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link header__link" href="#">Contact<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
